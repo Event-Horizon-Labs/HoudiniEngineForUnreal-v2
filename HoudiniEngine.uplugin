@@ -17,17 +17,47 @@
 		{
 			"Name": "HoudiniEngine",
 			"Type": "Editor",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"TVOS", 
+				"Android", 
+				"HoloLens", 
+				"IOS", 
+				"Linux", 
+				"LinuxAArch64", 
+				"Lumin",
+				"Win32",
+			]
 		},
 		{
 			"Name" : "HoudiniEngineEditor",
 			"Type" : "Editor",
-			"LoadingPhase" : "PostEngineInit"
+			"LoadingPhase" : "PostEngineInit",
+			"BlacklistPlatforms": [
+				"TVOS", 
+				"Android", 
+				"HoloLens", 
+				"IOS", 
+				"Linux", 
+				"LinuxAArch64", 
+				"Lumin",
+				"Win32",
+			]
 		},
 		{
 			"Name" : "HoudiniEngineRuntime",
 			"Type" : "Runtime",
-			"LoadingPhase" : "Default"
+			"LoadingPhase" : "Default",
+			"BlacklistPlatforms": [
+				"TVOS", 
+				"Android", 
+				"HoloLens", 
+				"IOS", 
+				"Linux", 
+				"LinuxAArch64", 
+				"Lumin",
+				"Win32",
+			]
 		},
 	],
 
